@@ -1,0 +1,62 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+#logo {
+	font-size:120%;
+	font-weight:bold;
+	padding-left:10px;
+	padding-top:7px;
+	float:left;
+}
+
+#topBar {
+	background:#EEEEEE;
+	height:40px;
+}
+
+.topBarBtn {
+	float:left;
+	padding:5px 5px;
+	border:1px solid gray;
+	margin-top:4px;
+	border-radius:10px;
+	margin-left:3px;
+
+}
+
+#topBarBtnContainer {
+	width:250px;
+	margin:0 auto;
+	text-align:center;
+}
+
+.active {
+	background:#E8F2FF;
+}
+
+.hover {
+	background:gray;
+}
+
+textarea {
+	resize:none;
+	border-top:none;
+	border-bottom: none;
+	border-color:grey;
+}
+
+.panel {
+	float:left;
+	width:50%;
+	border-left:none;
+}
+
+iframe {
+	border:none;
+}
+
+.hidden {
+	display:none;
+}

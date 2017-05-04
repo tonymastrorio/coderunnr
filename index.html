@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="codeRunnr.css">
+	<title>CodeRunnr</title>
+</head>
+<body>
+
+<div id="topBar">
+	<div id="logo">
+	CodeRunnr
+	</div>
+	<div id="topBarBtnContainer">
+		<div class="topBarBtn active" id="html">
+		HTML
+		</div>
+		<div class="topBarBtn" id="css">
+		CSS
+		</div>
+		<div class="topBarBtn" id="javascript">
+		JavaScript
+		</div>
+		<div class="topBarBtn active" id="output">
+		Output
+		</div>
+	</div>
+</div>
+
+<div id="bodyContainer">
+	<textarea id="htmlPanel" class="panel"><p id="paragraph">Hello world!</p></textarea>
+
+	<textarea id="cssPanel" class="panel hidden">
+	#paragraph {
+		color:yellow;
+		text-align:center;
+		font-size:30px;
+	}
+
+	html {
+		background:green;
+	}
+	</textarea>
+
+
+
+	<textarea id="javascriptPanel" class="panel hidden">
+	</textarea>
+
+	<iframe id="outputPanel" class="panel">
+		
+	</iframe>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="codeRunnr.js"></script>
+	
+</body>
+</html>
